@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62C32F909C67D42DFD41E87B /* libPods-IMChatUIDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1305CD4D3F04B62EB9D6D2A4 /* libPods-IMChatUIDemo.a */; };
+		D3D999C520E4B37400C17172 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D999C420E4B37400C17172 /* AppDelegate.m */; };
+		D3D999C820E4B37400C17172 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D999C720E4B37400C17172 /* ViewController.m */; };
+		D3D999CB20E4B37400C17172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D999C920E4B37400C17172 /* Main.storyboard */; };
+		D3D999CD20E4B37600C17172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3D999CC20E4B37600C17172 /* Assets.xcassets */; };
+		D3D999D020E4B37600C17172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3D999CE20E4B37600C17172 /* LaunchScreen.storyboard */; };
+		D3D999D320E4B37600C17172 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D999D220E4B37600C17172 /* main.m */; };
+		D3D99A5D20E4B75900C17172 /* JXYUICommon.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A4320E4B75900C17172 /* JXYUICommon.m */; };
+		D3D99A5E20E4B75900C17172 /* JXYChatViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A4520E4B75900C17172 /* JXYChatViewCell.m */; };
+		D3D99A5F20E4B75900C17172 /* ChatBaseViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A4620E4B75900C17172 /* ChatBaseViewCell.m */; };
+		D3D99A6120E4B75900C17172 /* ChatButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A4A20E4B75900C17172 /* ChatButtonView.m */; };
+		D3D99A6220E4B75900C17172 /* SavaPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A4F20E4B75900C17172 /* SavaPhotoView.m */; };
+		D3D99A6320E4B75900C17172 /* JXYChatView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A5020E4B75900C17172 /* JXYChatView.m */; };
+		D3D99A6420E4B75900C17172 /* JXYChatBarMoreViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A5320E4B75900C17172 /* JXYChatBarMoreViewCell.m */; };
+		D3D99A6520E4B75900C17172 /* JXYChatOtherItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A5520E4B75900C17172 /* JXYChatOtherItemView.m */; };
+		D3D99A6620E4B75900C17172 /* JXYChatInputBox.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A5620E4B75900C17172 /* JXYChatInputBox.m */; };
+		D3D99A6720E4B75900C17172 /* JXYChatBarMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A5820E4B75900C17172 /* JXYChatBarMoreView.m */; };
+		D3D99A6820E4B75900C17172 /* JXYChatProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A5C20E4B75900C17172 /* JXYChatProperty.m */; };
+		D3D99A6B20E4B92B00C17172 /* JXYImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A6A20E4B92B00C17172 /* JXYImageButton.m */; };
+		D3D99A6D20E4BAC100C17172 /* libSDWebImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D99A6C20E4BAC100C17172 /* libSDWebImage.a */; };
+		D3D99A7020E4BC5500C17172 /* UIView+JXY.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D99A6F20E4BC5500C17172 /* UIView+JXY.m */; };
+		D3E8D4EB20E5C660009E772B /* libMJRefresh.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D3E8D4EA20E5C660009E772B /* libMJRefresh.a */; };
+		D3E8D4EE20E5CCA7009E772B /* UIImage+JXY.m in Sources */ = {isa = PBXBuildFile; fileRef = D3E8D4EC20E5CCA7009E772B /* UIImage+JXY.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1305CD4D3F04B62EB9D6D2A4 /* libPods-IMChatUIDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-IMChatUIDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CE893F43BE2CEE2A6547C87 /* Pods-IMChatUIDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMChatUIDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-IMChatUIDemo/Pods-IMChatUIDemo.release.xcconfig"; sourceTree = "<group>"; };
+		46B3188455DB1E4F603D463D /* Pods-IMChatUIDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IMChatUIDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IMChatUIDemo/Pods-IMChatUIDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D3D999C020E4B37400C17172 /* IMChatUIDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IMChatUIDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D999C320E4B37400C17172 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3D999C420E4B37400C17172 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3D999C620E4B37400C17172 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3D999C720E4B37400C17172 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3D999CA20E4B37400C17172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3D999CC20E4B37600C17172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3D999CF20E4B37600C17172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3D999D120E4B37600C17172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3D999D220E4B37600C17172 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3D99A4320E4B75900C17172 /* JXYUICommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYUICommon.m; sourceTree = "<group>"; };
+		D3D99A4420E4B75900C17172 /* ChatButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatButtonView.h; sourceTree = "<group>"; };
+		D3D99A4520E4B75900C17172 /* JXYChatViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYChatViewCell.m; sourceTree = "<group>"; };
+		D3D99A4620E4B75900C17172 /* ChatBaseViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatBaseViewCell.m; sourceTree = "<group>"; };
+		D3D99A4720E4B75900C17172 /* JXYChatView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYChatView.h; sourceTree = "<group>"; };
+		D3D99A4820E4B75900C17172 /* SavaPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavaPhotoView.h; sourceTree = "<group>"; };
+		D3D99A4A20E4B75900C17172 /* ChatButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatButtonView.m; sourceTree = "<group>"; };
+		D3D99A4B20E4B75900C17172 /* JXYUICommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYUICommon.h; sourceTree = "<group>"; };
+		D3D99A4C20E4B75900C17172 /* ChatBaseViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatBaseViewCell.h; sourceTree = "<group>"; };
+		D3D99A4D20E4B75900C17172 /* JXYChatViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYChatViewCell.h; sourceTree = "<group>"; };
+		D3D99A4F20E4B75900C17172 /* SavaPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavaPhotoView.m; sourceTree = "<group>"; };
+		D3D99A5020E4B75900C17172 /* JXYChatView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYChatView.m; sourceTree = "<group>"; };
+		D3D99A5220E4B75900C17172 /* JXYChatInputBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYChatInputBox.h; sourceTree = "<group>"; };
+		D3D99A5320E4B75900C17172 /* JXYChatBarMoreViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYChatBarMoreViewCell.m; sourceTree = "<group>"; };
+		D3D99A5420E4B75900C17172 /* JXYChatBarMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYChatBarMoreView.h; sourceTree = "<group>"; };
+		D3D99A5520E4B75900C17172 /* JXYChatOtherItemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYChatOtherItemView.m; sourceTree = "<group>"; };
+		D3D99A5620E4B75900C17172 /* JXYChatInputBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYChatInputBox.m; sourceTree = "<group>"; };
+		D3D99A5720E4B75900C17172 /* JXYChatOtherItemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYChatOtherItemView.h; sourceTree = "<group>"; };
+		D3D99A5820E4B75900C17172 /* JXYChatBarMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYChatBarMoreView.m; sourceTree = "<group>"; };
+		D3D99A5920E4B75900C17172 /* JXYChatBarMoreViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYChatBarMoreViewCell.h; sourceTree = "<group>"; };
+		D3D99A5B20E4B75900C17172 /* JXYChatProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYChatProperty.h; sourceTree = "<group>"; };
+		D3D99A5C20E4B75900C17172 /* JXYChatProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYChatProperty.m; sourceTree = "<group>"; };
+		D3D99A6920E4B92B00C17172 /* JXYImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JXYImageButton.h; sourceTree = "<group>"; };
+		D3D99A6A20E4B92B00C17172 /* JXYImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JXYImageButton.m; sourceTree = "<group>"; };
+		D3D99A6C20E4BAC100C17172 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3D99A6E20E4BC5500C17172 /* UIView+JXY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JXY.h"; sourceTree = "<group>"; };
+		D3D99A6F20E4BC5500C17172 /* UIView+JXY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JXY.m"; sourceTree = "<group>"; };
+		D3E8D4EA20E5C660009E772B /* libMJRefresh.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libMJRefresh.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3E8D4EC20E5CCA7009E772B /* UIImage+JXY.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+JXY.m"; sourceTree = "<group>"; };
+		D3E8D4ED20E5CCA7009E772B /* UIImage+JXY.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+JXY.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3D999BD20E4B37400C17172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E8D4EB20E5C660009E772B /* libMJRefresh.a in Frameworks */,
+				D3D99A6D20E4BAC100C17172 /* libSDWebImage.a in Frameworks */,
+				62C32F909C67D42DFD41E87B /* libPods-IMChatUIDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C7B02FA4E2D4A88D4EB7A433 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46B3188455DB1E4F603D463D /* Pods-IMChatUIDemo.debug.xcconfig */,
+				3CE893F43BE2CEE2A6547C87 /* Pods-IMChatUIDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D3D999B720E4B37400C17172 = {
+			isa = PBXGroup;
+			children = (
+				D3D999C220E4B37400C17172 /* IMChatUIDemo */,
+				D3D999C120E4B37400C17172 /* Products */,
+				C7B02FA4E2D4A88D4EB7A433 /* Pods */,
+				D884AEA05116C56E75C4C340 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D3D999C120E4B37400C17172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3D999C020E4B37400C17172 /* IMChatUIDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3D999C220E4B37400C17172 /* IMChatUIDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D3D99A4120E4B75900C17172 /* JXYChatView */,
+				D3D999C320E4B37400C17172 /* AppDelegate.h */,
+				D3D999C420E4B37400C17172 /* AppDelegate.m */,
+				D3D999C620E4B37400C17172 /* ViewController.h */,
+				D3D999C720E4B37400C17172 /* ViewController.m */,
+				D3D999C920E4B37400C17172 /* Main.storyboard */,
+				D3D999CC20E4B37600C17172 /* Assets.xcassets */,
+				D3D999CE20E4B37600C17172 /* LaunchScreen.storyboard */,
+				D3D999D120E4B37600C17172 /* Info.plist */,
+				D3D999D220E4B37600C17172 /* main.m */,
+			);
+			path = IMChatUIDemo;
+			sourceTree = "<group>";
+		};
+		D3D99A4120E4B75900C17172 /* JXYChatView */ = {
+			isa = PBXGroup;
+			children = (
+				D3D99A4220E4B75900C17172 /* JXYChatUI */,
+				D3D99A5120E4B75900C17172 /* JXYChatInputBox */,
+				D3D99A5A20E4B75900C17172 /* JXYChatModel */,
+			);
+			path = JXYChatView;
+			sourceTree = "<group>";
+		};
+		D3D99A4220E4B75900C17172 /* JXYChatUI */ = {
+			isa = PBXGroup;
+			children = (
+				D3E8D4ED20E5CCA7009E772B /* UIImage+JXY.h */,
+				D3E8D4EC20E5CCA7009E772B /* UIImage+JXY.m */,
+				D3D99A6E20E4BC5500C17172 /* UIView+JXY.h */,
+				D3D99A6F20E4BC5500C17172 /* UIView+JXY.m */,
+				D3D99A4B20E4B75900C17172 /* JXYUICommon.h */,
+				D3D99A4320E4B75900C17172 /* JXYUICommon.m */,
+				D3D99A6920E4B92B00C17172 /* JXYImageButton.h */,
+				D3D99A6A20E4B92B00C17172 /* JXYImageButton.m */,
+				D3D99A4720E4B75900C17172 /* JXYChatView.h */,
+				D3D99A5020E4B75900C17172 /* JXYChatView.m */,
+				D3D99A4D20E4B75900C17172 /* JXYChatViewCell.h */,
+				D3D99A4520E4B75900C17172 /* JXYChatViewCell.m */,
+				D3D99A4C20E4B75900C17172 /* ChatBaseViewCell.h */,
+				D3D99A4620E4B75900C17172 /* ChatBaseViewCell.m */,
+				D3D99A4420E4B75900C17172 /* ChatButtonView.h */,
+				D3D99A4A20E4B75900C17172 /* ChatButtonView.m */,
+				D3D99A4820E4B75900C17172 /* SavaPhotoView.h */,
+				D3D99A4F20E4B75900C17172 /* SavaPhotoView.m */,
+			);
+			path = JXYChatUI;
+			sourceTree = "<group>";
+		};
+		D3D99A5120E4B75900C17172 /* JXYChatInputBox */ = {
+			isa = PBXGroup;
+			children = (
+				D3D99A5220E4B75900C17172 /* JXYChatInputBox.h */,
+				D3D99A5620E4B75900C17172 /* JXYChatInputBox.m */,
+				D3D99A5920E4B75900C17172 /* JXYChatBarMoreViewCell.h */,
+				D3D99A5320E4B75900C17172 /* JXYChatBarMoreViewCell.m */,
+				D3D99A5420E4B75900C17172 /* JXYChatBarMoreView.h */,
+				D3D99A5820E4B75900C17172 /* JXYChatBarMoreView.m */,
+				D3D99A5720E4B75900C17172 /* JXYChatOtherItemView.h */,
+				D3D99A5520E4B75900C17172 /* JXYChatOtherItemView.m */,
+			);
+			path = JXYChatInputBox;
+			sourceTree = "<group>";
+		};
+		D3D99A5A20E4B75900C17172 /* JXYChatModel */ = {
+			isa = PBXGroup;
+			children = (
+				D3D99A5B20E4B75900C17172 /* JXYChatProperty.h */,
+				D3D99A5C20E4B75900C17172 /* JXYChatProperty.m */,
+			);
+			path = JXYChatModel;
+			sourceTree = "<group>";
+		};
+		D884AEA05116C56E75C4C340 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3E8D4EA20E5C660009E772B /* libMJRefresh.a */,
+				D3D99A6C20E4BAC100C17172 /* libSDWebImage.a */,
+				1305CD4D3F04B62EB9D6D2A4 /* libPods-IMChatUIDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3D999BF20E4B37400C17172 /* IMChatUIDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3D999D620E4B37600C17172 /* Build configuration list for PBXNativeTarget "IMChatUIDemo" */;
+			buildPhases = (
+				EFEC744BEFE0BBFD4AF97D79 /* [CP] Check Pods Manifest.lock */,
+				D3D999BC20E4B37400C17172 /* Sources */,
+				D3D999BD20E4B37400C17172 /* Frameworks */,
+				D3D999BE20E4B37400C17172 /* Resources */,
+				C4E715E82462378C1ADD1009 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IMChatUIDemo;
+			productName = IMChatUIDemo;
+			productReference = D3D999C020E4B37400C17172 /* IMChatUIDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3D999B820E4B37400C17172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "骚姜的HHBoy";
+				TargetAttributes = {
+					D3D999BF20E4B37400C17172 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = D3D999BB20E4B37400C17172 /* Build configuration list for PBXProject "IMChatUIDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3D999B720E4B37400C17172;
+			productRefGroup = D3D999C120E4B37400C17172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3D999BF20E4B37400C17172 /* IMChatUIDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3D999BE20E4B37400C17172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D999D020E4B37600C17172 /* LaunchScreen.storyboard in Resources */,
+				D3D999CD20E4B37600C17172 /* Assets.xcassets in Resources */,
+				D3D999CB20E4B37400C17172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C4E715E82462378C1ADD1009 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IMChatUIDemo/Pods-IMChatUIDemo-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IMChatUIDemo/Pods-IMChatUIDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFEC744BEFE0BBFD4AF97D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IMChatUIDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3D999BC20E4B37400C17172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3D99A6420E4B75900C17172 /* JXYChatBarMoreViewCell.m in Sources */,
+				D3D99A5E20E4B75900C17172 /* JXYChatViewCell.m in Sources */,
+				D3D99A5F20E4B75900C17172 /* ChatBaseViewCell.m in Sources */,
+				D3D99A6120E4B75900C17172 /* ChatButtonView.m in Sources */,
+				D3D99A6B20E4B92B00C17172 /* JXYImageButton.m in Sources */,
+				D3D99A6820E4B75900C17172 /* JXYChatProperty.m in Sources */,
+				D3D999C820E4B37400C17172 /* ViewController.m in Sources */,
+				D3D99A7020E4BC5500C17172 /* UIView+JXY.m in Sources */,
+				D3D99A6220E4B75900C17172 /* SavaPhotoView.m in Sources */,
+				D3D99A6320E4B75900C17172 /* JXYChatView.m in Sources */,
+				D3D99A6520E4B75900C17172 /* JXYChatOtherItemView.m in Sources */,
+				D3D999D320E4B37600C17172 /* main.m in Sources */,
+				D3D99A6620E4B75900C17172 /* JXYChatInputBox.m in Sources */,
+				D3D99A6720E4B75900C17172 /* JXYChatBarMoreView.m in Sources */,
+				D3E8D4EE20E5CCA7009E772B /* UIImage+JXY.m in Sources */,
+				D3D99A5D20E4B75900C17172 /* JXYUICommon.m in Sources */,
+				D3D999C520E4B37400C17172 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3D999C920E4B37400C17172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D999CA20E4B37400C17172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3D999CE20E4B37600C17172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3D999CF20E4B37600C17172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3D999D420E4B37600C17172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3D999D520E4B37600C17172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3D999D720E4B37600C17172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46B3188455DB1E4F603D463D /* Pods-IMChatUIDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578PCFCK2B;
+				INFOPLIST_FILE = IMChatUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saojiang.identifier.IMChatUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3D999D820E4B37600C17172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CE893F43BE2CEE2A6547C87 /* Pods-IMChatUIDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 578PCFCK2B;
+				INFOPLIST_FILE = IMChatUIDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = saojiang.identifier.IMChatUIDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3D999BB20E4B37400C17172 /* Build configuration list for PBXProject "IMChatUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D999D420E4B37600C17172 /* Debug */,
+				D3D999D520E4B37600C17172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3D999D620E4B37600C17172 /* Build configuration list for PBXNativeTarget "IMChatUIDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3D999D720E4B37600C17172 /* Debug */,
+				D3D999D820E4B37600C17172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3D999B820E4B37400C17172 /* Project object */;
+}
